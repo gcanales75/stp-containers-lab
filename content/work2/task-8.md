@@ -6,7 +6,7 @@ weight = 8
 
 
 
-The deployment, services and ingress configuration files are in the ```eks-lab-app/``` folder, please doble click on each of them to review their content.
+The deployment, services and ingress configuration files are in the ```eks-lab-app/``` folder, please double click on each of them to review their content.
 
 - service.yaml
 - deployment.yaml
