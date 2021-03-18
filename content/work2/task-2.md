@@ -30,5 +30,7 @@ eksctl create cluster \
 
 This command will create a EKS Cluster, including the EKS control plane and 3 worker nodes that will be managed by the control plane.
 
+{{% notice info %}}
 Cluster creation will take ~15-20 minutes, please go ahead and continue with the next task.
+{{% /notice %}}
 

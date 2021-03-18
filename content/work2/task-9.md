@@ -28,7 +28,9 @@ The first step is to add a required IAM Policy (CloudWatchAgentServerPolicy) to 
 	curl https://raw.githubusercontent.com/aws-samples/amazon-cloudwatch-container-insights/latest/k8s-deployment-manifest-templates/deployment-mode/daemonset/container-insights-monitoring/quickstart/cwagent-fluentd-quickstart.yaml | sed "s/{{cluster_name}}/$CLUSTER_NAME/;s/{{region_name}}/us-east-2/" | kubectl apply -f -
 	```
 
-	NOTE: CloudWatch Container Insights may take up to 5 minutes to fully deploy, so you can view data. Please wait before proceeding to the following steps
+	{{% notice info %}}
+NOTE: CloudWatch Container Insights may take 5-10 minutes to fully deploy so you can view your cluster data. Please wait before proceeding to the following steps
+{{% /notice %}}
 
 1. Now access CloudWatch service returning to the AWS console tab in your browser. Service *search box* > CloudWatch
 

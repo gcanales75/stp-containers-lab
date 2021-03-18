@@ -46,9 +46,11 @@ The first steps in this lab will require you to prepare your Cloud9 workspace wi
 
 	1. Disable **AWS managed temporary credentials**
 
-		**(MAKE SURE THE SWITCH HAS TURNED TO RED)**
-
 	1. Close “Preferences” window
+
+	{{% notice info %}}
+MAKE SURE THE **AWS managed temporary credentials** SWITCH HAS TURNED TO RED
+{{% /notice %}}
 
 	<img src="../readmeFiles/disable-creds.png" alt="drawing" width="1000"/>
 
