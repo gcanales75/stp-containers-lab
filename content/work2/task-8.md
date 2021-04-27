@@ -34,12 +34,6 @@ The deployment, services and ingress configuration files are in the ```eks-lab-a
 	envsubst < deployment.yaml | kubectl apply -f -
 	```
 
-1. Create kuberntes ingress:
-
-	```
-	kubectl apply -f ingress.yaml
-	```
-
 1. You can see "development" namespace pods, service, deployment and replica sets with the below command
 
 	```
