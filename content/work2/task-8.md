@@ -46,15 +46,9 @@ The deployment, services and ingress configuration files are in the ```eks-lab-a
 	kubectl get all
 	```
 
-1. To verify the ingress status and Application Load Balancer URL, run the below command:
+1. Copy the Application Load Balancer URL from the previous command output (under EXTERNAL-IP column) and paste it in a browser to confirm the correct deployment. It could take 2-3 minutes to fully deploy.
 
-	```
-	kubectl get ingress
-	```
-
-1. Copy the Application Load Balancer URL from the command output (under ADDRESS column) and paste it in a browser to confirm the correct deployment. It could take 2-3 minutes to fully deploy.
-
-	Please note that your browser shows the Kubernetes pod ID
+	Please note that your browser will show the Kubernetes pod ID
 
 	<img src="../readmeFiles/skitch.20.png" alt="drawing" width="600"/>
 

@@ -44,9 +44,9 @@ NOTE: CloudWatch Container Insights may take 5-10 minutes to fully deploy so you
 
 	<img src="../readmeFiles/picture6.png" alt="drawing" width="500"/>
 	
-1. You will see a map of you Kubernetes environment. Click on **lab-app-deployment**
+1. You will see a map of you Kubernetes environment. Click on **stp-lab-service**
 
-	<img src="../readmeFiles/picture7.png" alt="drawing" width="200"/>
+	<img src="../readmeFiles/stp-lab-service.png" alt="drawing" width="120"/>
 
 In the far right of your screen, click on **View dashboard**
 
